@@ -11,7 +11,7 @@ public class FoodInput {
 
 		System.out.println("메뉴 수량을 입력하세요");
 		int num = sc.nextInt();
-		fb = new Food[num];
+		fb = new Food[3];
 
 		for (int i = 0; i < fb.length; i++) {
 

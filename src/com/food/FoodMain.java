@@ -6,10 +6,12 @@ public class FoodMain {
 		
 		FoodInput fi = new FoodInput();
 		FoodMenu fm = new FoodMenu();
+		Food[] fb = fi.fb;
 		
-		fi.getInput(); //음식 정보 입력
+		
 		
 		fm.getSelect(); //음식 선택
+		
 
 	}
 
